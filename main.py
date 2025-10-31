@@ -67,3 +67,4 @@ def delete_todo(todo_id:int,db: Session = Depends(get_sb)):
 
 # for run
 # uvicorn main:app --host 0.0.0.0 --port 8000
+
